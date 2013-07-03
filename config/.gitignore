@@ -1,0 +1,5 @@
+# Ignore all PHP files
+*.php
+
+# Except the global config
+!global.php
