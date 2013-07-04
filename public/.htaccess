@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^page/tickets/nl/ index.php?page=tickets&lang=nl
+RewriteRule ^page/tickets/en/ index.php?page=tickets&lang=en
+RewriteRule ^page/tickets/de/ index.php?page=tickets&lang=de
+RewriteRule ^page/tickets/(.*)/ index.php?page=tickets&sort=$1
+RewriteRule ^page/archif/(.*)/ index.php?page=archif&sort=$1
+RewriteRule ^page/statics/(.*)/ index.php?page=statics&sort=$1
+RewriteRule ^page/(.*)/(.*) index.php?page=$1&id=$2
+RewriteRule ^page/(.*) index.php?page=$1
+RewriteRule ^game/(.*) game.php?game=$1
