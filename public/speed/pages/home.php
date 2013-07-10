@@ -1,3 +1,4 @@
 <?php
-	echo text(1);
+
+echo text(1);
 ?>

@@ -1,15 +1,16 @@
-<?php 
-if(!isset($_SESSION['rights'])){
-	echo language(19);
-	die();
-	}
+<?php
+
+if (!isset($_SESSION['rights'])) {
+    echo language(19);
+    die();
+}
 ?>
 
-<?php	
-if($_SESSION['rights'] >= 2){
+<?php
 
-}
-else {
-	echo language(20);
+if ($_SESSION['rights'] >= 2) {
+    
+} else {
+    echo language(20);
 }
 ?>
